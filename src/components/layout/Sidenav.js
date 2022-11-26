@@ -29,52 +29,11 @@ function Sidenav({ color }) {
             <span className="label">Dashboard</span>
           </NavLink>
         </Menu.Item>
-        <Menu.Item key="2">
-          <NavLink to="/users">
-            <span className="icon">
-              <UsergroupAddOutlined />
-            </span>
-            <span className="label">Users</span>
-          </NavLink>
-        </Menu.Item>
-        <Menu.Item key="3">
-          <NavLink to="/companies">
-            <span className="icon">
-              <AppleOutlined />
-            </span>
-            <span className="label">Companies</span>
-          </NavLink>
-        </Menu.Item>
-        <Menu.Item key="4">
-          <NavLink to="/campaigns">
-            <span className="icon">
-              <TagOutlined />
-            </span>
-            <span className="label">Campaigns</span>
-          </NavLink>
-        </Menu.Item>
-        <Menu.Item key="5">
-          <NavLink to="/mails">
-            <span className="icon">
-              <MailOutlined />
-            </span>
-            <span className="label">Mails</span>
-          </NavLink>
-        </Menu.Item>
 
-        <Menu.Item key="6-1">
-          <NavLink to="/contacts">
-            <span className="icon">
-              <MailOutlined />
-            </span>
-            <span className="label">Contacts</span>
-          </NavLink>
-        </Menu.Item>
-
-        <Menu.Item className="menu-item-header" key="6">
+        <Menu.Item className="menu-item-header" key="2">
           Account Pages
         </Menu.Item>
-        <Menu.Item key="7">
+        <Menu.Item key="3">
           <NavLink to="/profile">
             <span className="icon">
               <UserOutlined />
@@ -82,7 +41,7 @@ function Sidenav({ color }) {
             <span className="label">Profile</span>
           </NavLink>
         </Menu.Item>
-        <Menu.Item key="8">
+        <Menu.Item key="4">
           <NavLink to="/sign-in">
             <span className="icon">
               <UserAddOutlined />
@@ -90,7 +49,7 @@ function Sidenav({ color }) {
             <span className="label">Sign In</span>
           </NavLink>
         </Menu.Item>
-        <Menu.Item key="9">
+        <Menu.Item key="5">
           <NavLink to="/sign-up">
             <span className="icon" style={{ color }}>
               <UserSwitchOutlined />
