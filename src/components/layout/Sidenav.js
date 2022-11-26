@@ -3,14 +3,12 @@ import {
   UserAddOutlined,
   UserOutlined,
   UserSwitchOutlined,
-  AppleOutlined,
-  TagOutlined,
-  MailOutlined,
-  UsergroupAddOutlined,
 } from "@ant-design/icons";
-import { Menu, Button } from "antd";
+import { Menu } from "antd";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.svg";
+
+
 
 function Sidenav({ color }) {
   return (
@@ -58,23 +56,6 @@ function Sidenav({ color }) {
           </NavLink>
         </Menu.Item>
       </Menu>
-      <div className="aside-footer">
-        <div
-          className="footer-box"
-          style={{
-            background: color,
-          }}
-        >
-          <span className="icon" style={{ color }}>
-            <AppstoreOutlined />
-          </span>
-          <h6>Need Help?</h6>
-          <p>Please check our docs</p>
-          <Button type="primary" className="ant-btn-sm ant-btn-block">
-            DOCUMENTATION
-          </Button>
-        </div>
-      </div>
     </>
   );
 }
